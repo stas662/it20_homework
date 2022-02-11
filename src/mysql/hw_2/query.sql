@@ -1,7 +1,7 @@
 -- 1. Одним запросом добавить сразу несколько записей в таблицу.
 INSERT INTO `comments` (id_comment, body_comment, likes_comment)
 VALUES  ('6', '6 Lorem ipsum dolor sit, amet consectetur adipisicing elit.', '6'),
-	      ('7', '7 Lorem ipsum dolor sit, amet consectetur adipisicing elit.', '29'),
+	('7', '7 Lorem ipsum dolor sit, amet consectetur adipisicing elit.', '29'),
         ('8', '8 Lorem ipsum dolor sit, amet consectetur adipisicing elit.', '0');
 
 -- 2. Удалить одну конкретную запись из таблицы.
